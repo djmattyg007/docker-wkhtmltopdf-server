@@ -1,7 +1,7 @@
-FROM djmattyg007/arch-base:2017.12.21-1
+FROM djmattyg007/arch-base:2018.01.22-1
 MAINTAINER djmattyg007
 
-ENV WKIMAGE_VERSION=2017.12.21-1
+ENV WKIMAGE_VERSION=2018.01.22-1
 
 # Add install bash script
 COPY setup/root/*.sh /root/
